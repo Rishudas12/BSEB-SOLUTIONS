@@ -40,6 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation ("com.github.mhiew:android-pdf-viewer:3.2.0-beta.3")
+    implementation (libs.android.pdf.viewer)
 //    implementation ("com.joanzapata.pdfview:android-pdfview:1.0.4@aar")
 }
