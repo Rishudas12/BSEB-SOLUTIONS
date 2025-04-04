@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        android:backgroundTint="#DE1010"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgapp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF0505"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#F20606"
+        android:foregroundTintMode="src_in"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="BSEB SOLUTIONS"
+        android:textColor="#FA0000"
+        android:textColorHighlight="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#040404"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="CLASS - X"
+        android:textColor="#DE0929"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button105"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="श्रम विभाजन और जाती प्रथा "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button106"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="विष के दाँत"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button107"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="भारत से हम क्या सीखें"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button108"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="नाख़ून क्यों बढ़ते हैं"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button109"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="नागरी लिपि"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button110"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="बहादुर "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="परंपरा का मूल्यांकन"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="जित - जित मैं निरखत हूँ "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button113"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="आविन्यो"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button114"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="मछली "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button115"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="नौबतखाने में इबादत "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button116"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="शिक्षा और संस्कृति "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button117"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="राम बिनु बिरथे जगि जनमा, जो नर दुख में दुख नहिं मानै "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button118"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="प्रेम अयनि श्री राधिका, करील के कुंजन ऊपर वारों "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button119"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="अति सूधो सनेह को मारग है, मो अंसुवानिहिं लै बरसौ "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button120"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="स्वदेशी "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="भारतमाता "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button122"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="जनतंत्र का जन्म"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button123"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="हिरोशिमा"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button124"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="एक वृक्ष की हत्या "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button125"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="हमारी नींद "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button126"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="अक्षर-ज्ञान "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button127"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="लौटकर आऊँग फिर "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button128"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#06C30C"
+                    android:text="मेरे बिना तुम प्रभु"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFEB3B"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
