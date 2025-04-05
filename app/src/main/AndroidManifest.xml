@@ -13,6 +13,51 @@
         android:theme="@style/Theme.App1"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity95"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity94"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity93"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity92"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity91"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity90"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity89"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity88"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity87"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity86"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity85"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity84"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity83"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity82"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity81"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity80"
             android:exported="false" />
         <activity
