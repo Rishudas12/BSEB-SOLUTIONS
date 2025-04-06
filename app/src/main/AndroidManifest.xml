@@ -13,6 +13,24 @@
         android:theme="@style/Theme.App1"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity127"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity126"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity125"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity124"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity123"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity122"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity121"
             android:exported="false" />
         <activity
