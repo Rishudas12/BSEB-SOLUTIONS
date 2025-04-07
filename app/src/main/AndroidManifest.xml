@@ -13,6 +13,15 @@
         android:theme="@style/Theme.App1"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity160"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity159"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity158"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity157"
             android:exported="false" />
         <activity
