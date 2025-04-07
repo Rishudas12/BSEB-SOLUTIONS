@@ -8,7 +8,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.github.barteksc.pdfviewer.PDFView;
+
 public class MainActivity134 extends AppCompatActivity {
+    PDFView pdfview121;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +23,8 @@ public class MainActivity134 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        pdfview121 = findViewById(R.id.pdfview121);
+        pdfview121.fromAsset("bookmat6.pdf")
+                .load();
     }
 }
