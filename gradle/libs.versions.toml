@@ -9,6 +9,7 @@ material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
 playServicesAds = "24.1.0"
+playServicesAdsVersion = "24.2.0"
 
 [libraries]
 android-pdf-viewer = { module = "com.github.mhiew:android-pdf-viewer", version.ref = "androidPdfViewer" }
@@ -20,6 +21,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+play-services-ads-v2420 = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAdsVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

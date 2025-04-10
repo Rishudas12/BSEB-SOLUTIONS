@@ -40,7 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation("com.google.android.gms:play-services-ads:24.1.0")
+    implementation(libs.play.services.ads.v2420)
     implementation (libs.android.pdf.viewer)
-//    implementation ("com.joanzapata.pdfview:android-pdfview:1.0.4@aar")
 }
